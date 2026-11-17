@@ -1,0 +1,192 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Prototipo navigabile per consultare, filtrare e registrare pratiche di uno sportello al cittadino, con stato e scadenza. Tutti i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle pratiche e delle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "24"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "11"
+        },
+        {
+          "label": "In attesa",
+          "value": "7"
+        },
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Stato",
+        "Numero pratiche"
+      ],
+      "rows": [
+        [
+          "Da avviare",
+          "6"
+        ],
+        [
+          "In lavorazione",
+          "11"
+        ],
+        [
+          "In attesa",
+          "7"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Consulta e filtra le pratiche per cercare rapidamente quelle da gestire.",
+      "metrics": [
+        {
+          "label": "Pratiche totali",
+          "value": "31"
+        },
+        {
+          "label": "Scadute",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-2401",
+          "Lumo Riva",
+          "Permesso temporaneo",
+          "In lavorazione",
+          "2026-04-02",
+          "2026-04-18"
+        ],
+        [
+          "PR-2402",
+          "Vela Neri",
+          "Contributo locale",
+          "In attesa",
+          "2026-04-03",
+          "2026-04-22"
+        ],
+        [
+          "PR-2403",
+          "Nubi Sera",
+          "Iscrizione servizio",
+          "Da avviare",
+          "2026-04-05",
+          "2026-04-26"
+        ],
+        [
+          "PR-2404",
+          "Timo Valli",
+          "Permesso temporaneo",
+          "Completata",
+          "2026-03-28",
+          "2026-04-11"
+        ],
+        [
+          "PR-2405",
+          "Runa Fiori",
+          "Contributo locale",
+          "In lavorazione",
+          "2026-04-06",
+          "2026-04-16"
+        ],
+        [
+          "PR-2406",
+          "Zefiro Lume",
+          "Iscrizione servizio",
+          "In attesa",
+          "2026-04-07",
+          "2026-04-29"
+        ],
+        [
+          "PR-2407",
+          "Mora Selva",
+          "Richiesta certificazione",
+          "Da avviare",
+          "2026-04-08",
+          "2026-04-24"
+        ],
+        [
+          "PR-2408",
+          "Piuma Vento",
+          "Contributo locale",
+          "In lavorazione",
+          "2026-04-09",
+          "2026-04-17"
+        ],
+        [
+          "PR-2409",
+          "Ametista Brina",
+          "Permesso temporaneo",
+          "In attesa",
+          "2026-04-10",
+          "2026-04-30"
+        ],
+        [
+          "PR-2410",
+          "Lilla Quiete",
+          "Richiesta certificazione",
+          "Completata",
+          "2026-03-30",
+          "2026-04-12"
+        ],
+        [
+          "PR-2411",
+          "Corallo Alba",
+          "Iscrizione servizio",
+          "In lavorazione",
+          "2026-04-11",
+          "2026-04-20"
+        ],
+        [
+          "PR-2412",
+          "Foschia Lago",
+          "Contributo locale",
+          "Da avviare",
+          "2026-04-12",
+          "2026-04-27"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Registra una pratica con i dati essenziali e una scadenza di riferimento.",
+      "metrics": [],
+      "columns": [
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Richiedente",
+        "Servizio",
+        "Stato",
+        "Data apertura",
+        "Scadenza"
+      ]
+    }
+  ]
+}
